@@ -11,7 +11,8 @@ hasCJKLanguage = true
 
 [outputs]
 home = ["HTML", "RSS", "Algolia"]
-plantuml = true
+
+
 [params]
   header_image = "img/home-bg-jeep.jpg"
   SEOTitle = "刘晨的博客"

@@ -35,6 +35,7 @@ jobs:
       - name: Build Web
         run: |
           hugo
+          pwd
           ls -al
 
       - name: Deploy to Staging server
@@ -48,6 +49,7 @@ jobs:
           SCRIPT_BEFORE: |
             whoami
             ls -al
+            pwd
           SCRIPT_AFTER: |
             whoami
             ls -al

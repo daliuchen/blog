@@ -33,13 +33,15 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Build Web
-        run: hugo
+        run: |
+          hugo
+          ls -al
 
       - name: Deploy to Staging server
         uses: easingthemes/ssh-deploy@main
         with:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-          SOURCE: ".public/"
+          SOURCE: "public/"
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
           TARGET: ${{ secrets.REMOTE_TARGET }}

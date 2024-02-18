@@ -1,11 +1,12 @@
 ---
 layout:     post 
-title:      "Welcome to Zhaohuabing Blog"
+title:      "Welcome to liuchen Blog"
 subtitle:   "Hello World, Hello Blog"
-date:       2017-11-04
-author:     "赵化冰"
-URL: "/2017/11/03/hello-world/"
-image:      "https://img.zhaohuabing.com/post-bg-2015.jpg"
+date:       2024-01-01
+author:     "刘晨"
+tags:
+  - test
+categories: [ Think,Life ]
 ---
 
 > “Yeah It's on. ”

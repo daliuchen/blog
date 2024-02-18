@@ -5,8 +5,7 @@ subtitle:   ""
 excerpt: "介绍日常工作中需求实现的过程"
 description: "介绍日常工作中需求实现的过程"
 date:       2024-02-06
-author:     "刘晨"
-image: "/img/2018-06-04-introducing-the-istio-v1alpha3-routing-api/background.jpg"
+author:  "刘晨"
 published: true 
 plantuml: true
 tags:

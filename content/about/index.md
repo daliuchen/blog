@@ -1,9 +1,17 @@
+---
+title: "About Me"
+date: 2019-04-26T20:18:54+03:00
+author: Hotjuice
+heroimage: /images/author.jpg
+layout: about
+---
+
 ## 关于我
 Hi，我是刘晨
 - go、java、python、ruby
 - gitlab CICD、k8s、
 - 我正在学前端
-工作联系： zhaohuabing@gmail.com
+  工作联系： zhaohuabing@gmail.com
 
 ## 出版物
 | 标题       |类型        |出版社   |链接        |
